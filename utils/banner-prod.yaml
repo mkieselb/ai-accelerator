@@ -1,0 +1,9 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleNotification
+metadata:
+  name: prodconsole
+spec:
+  backgroundColor: '#ff3333'
+  color: '#fff'
+  location: BannerTop
+  text: prod cluster

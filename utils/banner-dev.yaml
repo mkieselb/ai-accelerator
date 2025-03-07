@@ -1,0 +1,9 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleNotification
+metadata:
+  name: devconsole
+spec:
+  backgroundColor: '#32a852'
+  color: '#fff'
+  location: BannerTop
+  text: dev cluster
